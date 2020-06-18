@@ -48,10 +48,10 @@ export default class AutoSuggest extends Component {
     currentInput: null,
   }
 
-  componentDidMount () {
+  //componentDidMount () {
     // when user hits the return button, clear the terms
-    Keyboard.addListener('keyboardDidHide', () => this.clearTerms())
-  }
+    //Keyboard.addListener('keyboardDidHide', () => this.clearTerms())
+  //}
 
   getInitialStyles () {
     const { textInputStyles } = this.props

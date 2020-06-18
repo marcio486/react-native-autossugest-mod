@@ -167,6 +167,7 @@ export default class AutoSuggest extends Component {
           }}
         >
           <TextInput
+            autoFocus={true}
             {...otherTextInputProps}
             placeholderTextColor={placeholderTextColor}
             ref={c => {

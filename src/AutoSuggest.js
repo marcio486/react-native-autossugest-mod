@@ -29,7 +29,7 @@ export default class AutoSuggest extends Component {
     onItemPress: PropTypes.func,
     rowTextStyles: PropTypes.object,
     rowWrapperStyles: PropTypes.object,
-    textInputStyles: PropTypes.object,
+     textInputStyles: PropTypes.object,
     terms: PropTypes.array,
   }
 
